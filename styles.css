@@ -1,0 +1,116 @@
+.foto-perfil{
+    height: 250px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.corPrimaria{
+    background-color: #1C4078;
+
+}
+
+.corSecudaria{
+    background-color:#3782A2;
+    color: #3782A2;
+}
+
+.corNavbar{
+    background-color:#0A1128;
+}
+
+.box-shadow{
+    background-color:#0A1128;
+
+}
+
+.icones{
+    color: black;
+    transition: color 0.5s ease; /* Adicionando efeito de transição para a cor */;
+
+
+}
+.icones:hover{
+    color: white;
+}
+.icone-programador {
+    width: 100px; /* Defina o tamanho adequado para o seu ícone */
+    height: 100px; /* Defina o tamanho adequado para o seu ícone */
+}
+
+.titulos {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    transition: color 0.5s ease; /* Adicionando efeito de transição para a cor */
+}
+
+.titulos:hover {
+    color: red; /* Mudando a cor ao passar o mouse sobre o título */
+}
+
+
+.textoSimples{
+    color: white ;
+    display: inline; /* Define o elemento como inline */
+    transition: color 0.5s ease; /* Adicionando efeito de transição para a cor */
+
+    
+}
+.textoSimples:hover {
+    color: aquamarine;
+}
+.textoSimples::before {
+    content: "- "; /* Adiciona um hífen antes de cada parágrafo */
+}
+
+.textoSimples:not(:last-child)::after {
+    content: ", "; /* Adiciona uma vírgula após cada parágrafo, exceto no último */
+}
+
+
+.jumbotron{
+    margin-bottom: 0px;
+    color: white;
+    background-color: #1C4078;
+    border: white;
+
+    
+}
+
+.textoFooter{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+}
+
+body{
+    background-color: #1B263B;
+}
+
+.card-body {
+     background-color: #1B263B;
+     color: white;
+
+}
+
+.card-text {
+    background-color: #1B263B;
+    color: white;
+
+}
+
+.Depoimentos{
+    border: #1B263B;
+    border-style: solid;
+  border-width: 5px;
+}
+
+html {
+    scroll-behavior: smooth; /* Adicionando efeito de rolagem suave */
+    -webkit-scroll-behavior: smooth; /* Prefixo para compatibilidade com navegadores WebKit */
+}
+

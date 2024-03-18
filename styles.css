@@ -27,11 +27,13 @@
 .icones{
     color: black;
     transition: color 0.5s ease; /* Adicionando efeito de transição para a cor */;
+    height: 100px;
+    margin: 10px;
 
 
 }
 .icones:hover{
-    color: white;
+    filter: invert();
 }
 .icone-programador {
     width: 100px; /* Defina o tamanho adequado para o seu ícone */
@@ -114,3 +116,7 @@ html {
     -webkit-scroll-behavior: smooth; /* Prefixo para compatibilidade com navegadores WebKit */
 }
 
+button{
+    margin: 30px;
+    font-size: 50px;
+}

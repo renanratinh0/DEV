@@ -1,0 +1,47 @@
+#catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.produto {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Garante que o elemento ocupe toda a altura */
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-height: 200px; /* Definindo altura máxima para a imagem */
+}
+
+.produto p {
+    margin: 0;
+}
+
+.produto p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+.btn {
+    margin-top: auto; /* Empurra o botão para a parte inferior */
+    margin-bottom: 10px;
+}
+.produto img.imagem-produto {
+    max-height: initial; /* Redefine a altura máxima apenas para a imagem */
+}
+
+img{
+    max-height: 500px;
+        max-height: 500px;
+
+}
